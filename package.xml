@@ -1,0 +1,16 @@
+<package>
+  <name>setup_files</name>
+  <version>0.0.1</version>
+  <description>
+    Helper package that should do nothing when built with catkin,
+	 but otherwise installs global setup.{sh,zsh,bash,fish} files
+	 into the install workspace.
+  </description>
+  <maintainer email="me@v4hn.de">Michael Goerner</maintainer>
+
+  <license>BSD</license>
+
+  <url></url>
+
+  <buildtool_depend>cmake</buildtool_depend>
+</package>
