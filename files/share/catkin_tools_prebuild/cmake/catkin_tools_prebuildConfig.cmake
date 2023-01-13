@@ -68,7 +68,7 @@ set(catkin_tools_prebuild_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 set(catkin_tools_prebuild_SOURCE_PREFIX )
 set(catkin_tools_prebuild_DEVEL_PREFIX )
-set(catkin_tools_prebuild_INSTALL_PREFIX /opt/ros/debian)
+set(catkin_tools_prebuild_INSTALL_PREFIX /opt/ros/one)
 set(catkin_tools_prebuild_PREFIX ${catkin_tools_prebuild_INSTALL_PREFIX})
 
 # warn when using a deprecated package
@@ -98,7 +98,7 @@ if(NOT " " STREQUAL " ")
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
     # don't try to guess include dir if we installed into the default
-    elseif("/opt/ros/debian" STREQUAL "/usr")
+    elseif("/opt/ros/one" STREQUAL "/usr")
       continue()
     elseif("${idir} " STREQUAL "include ")
       get_filename_component(include "${catkin_tools_prebuild_DIR}/../../../include" ABSOLUTE)

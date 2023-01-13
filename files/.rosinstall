@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /opt/ros/debian/setup.sh
+    local-name: /opt/ros/one/setup.sh

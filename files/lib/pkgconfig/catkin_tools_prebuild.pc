@@ -1,4 +1,4 @@
-prefix=/opt/ros/debian
+prefix=/opt/ros/one
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild
