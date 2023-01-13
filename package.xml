@@ -12,5 +12,5 @@
 
   <url></url>
 
-  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend>catkin</buildtool_depend>
 </package>
