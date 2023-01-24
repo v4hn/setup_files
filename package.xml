@@ -1,4 +1,5 @@
-<package>
+<?xml version="1.0"?>
+<package format="3">
   <name>setup_files</name>
   <version>0.0.1</version>
   <description>
@@ -11,6 +12,8 @@
   <license>BSD</license>
 
   <url></url>
+
+  <exec_depend>python</exec_depend>
 
   <buildtool_depend>catkin</buildtool_depend>
 </package>
